@@ -229,9 +229,8 @@ export default function Example() {
                 <div className="absolute inset-0">
                   <img
                     className="h-full w-full object-cover"
-                    src="https://github.com/Elishaokon/Elixr-Labs/pages/assets/Elixr.jpg"
-                    alt="People working on laptops"
-                  />
+                    src="https://github.com/Elishaokon/Elixr-Labs/blob/main/pages/assets/Elixr.jpg"
+                    alt=""
                   <div className="absolute inset-0 bg-indigo-700 mix-blend-multiply" />
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
