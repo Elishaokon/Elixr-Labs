@@ -1,4 +1,4 @@
-/* This example requires Tailwind CSS v3.0+ */
+import MainVideo from '../assets/video.mp4'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -115,6 +115,9 @@ export default function Example() {
         </Dialog>
       </div>
       <main>
+       <video autoPlay loop muted className="absolute w-full h-full object-cover">
+                <source src={MainVideo} type='video/mp4'/>
+            </video>
         <div className="relative px-6 lg:px-8">
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
